@@ -87,7 +87,7 @@ export class DishdetailComponent implements OnInit {
     this.commentForm.valueChanges
       .subscribe(data => this.onValueChanged(data));
 
-      this.onValueChanged(); // (re)set form validation messages
+    this.onValueChanged(); // (re)set form validation messages
   }
 
   onValueChanged(data?: any) {
